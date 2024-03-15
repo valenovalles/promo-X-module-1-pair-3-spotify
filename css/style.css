@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+}
+#logo{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 100px;
+    display: inline;
+}
+#icon-menu{
+    width: 10%;
+    margin-left: 150px;
+    margin-right:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    display: inline;
+}
+.container-1{
+    background-color: aqua;
+}
