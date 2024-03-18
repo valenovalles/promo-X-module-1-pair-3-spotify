@@ -20,7 +20,7 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     gap: 15px;
-    background-image: url(/promo-X-module-1-pair-3-spotify/imagenes/premium_dancer.png display:none);
+    background-image: url("/promo-X-module-1-pair-3-spotify/imagenes/premium_dancer.png" display:none);
     color: white;
     height: 50vh;
     padding: 20px;
@@ -45,11 +45,12 @@ h1{
     font-size: 10px;
     letter-spacing: 2px;
 }
-/* .container-2{
-    display: flex;
-} */
 .container-2 article{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    /* linea agregada */
 }
 .container-2 img{
     width: 20%;
@@ -57,4 +58,10 @@ h1{
 .container-2{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+.container-2 div{
+    width: 100%;
+    /* línea agregada */
+}
+
