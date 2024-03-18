@@ -2,37 +2,59 @@ html {
     font-family: Roboto;
 }
 
-header{
+.cabecera{
     background-color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
 }
 .logo{
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    width: 100px;
-    display: inline;
+    width: 120px;
 }
 .icon-menu{
-    width: 10%;
-    margin-left: 150px;
-    margin-right:auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.container{
-    display: inline;
+    width: 40px;
 }
 .container-1{
     background-color: #52A0F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 15px;
     background-image: url(/promo-X-module-1-pair-3-spotify/imagenes/premium_dancer.png display:none);
     color: white;
+    height: 50vh;
+    padding: 20px;
 }
-
+.container-1 p{
+    line-height: 1.5;
+}
 .main-menu{
     display: none;
 }
-
 h1{
     font-size: 30px;
     font-weight: bold;
+}
+.boton{
+    background-color: #26B758;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+/* .container-2{
+    display: flex;
+} */
+.container-2 article{
+    display: flex;
+}
+.container-2 img{
+    width: 20%;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
 }
