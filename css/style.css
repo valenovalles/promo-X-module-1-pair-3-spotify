@@ -1,5 +1,6 @@
 html {
     font-family: Roboto;
+    font-size: 10px;
 }
 
 .cabecera{
@@ -24,13 +25,17 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     gap: 15px;
-    background-image: url("/promo-X-module-1-pair-3-spotify/imagenes/premium_dancer.png" display:none);
+    background-image: url("../imagenes/premium_dancer.png" display:none);
     color: white;
     height: 50vh;
     padding: 20px;
 }
-.container-1 p{
+.slogan{
     line-height: 1.5;
+    font-size: 2rem;
+}
+.condiciones{
+    font-size: 1.2rem;
 }
 .main-menu{
     display: none;
@@ -42,7 +47,7 @@ h1{
 .boton{
     background-color: #26B758;
     border-radius: 20px;
-    padding: 8px;
+    padding: 20px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -143,4 +148,53 @@ article div{
     justify-content: flex-end;
     align-items: center;
     width: 100%;
+}
+
+@media (width > 768px){
+.icon-menu{
+    display: none;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-menu li{
+    color: white;
+}
+.menu{
+    display: flex;
+}
+.container-1{
+    background-image: url("../imagenes/premium_dancer.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+.container-1 h1 {
+    font-size: 6rem;
+}
+.slogan{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.boton{
+    max-width: 15%;
+    font-size: 1.2rem;
+}
+.condiciones{
+    font-size: 1rem;
+    width: 50%;
+}
+/* Este es escritorio */
+}
+@media (width > 1280px){
+    
 }
