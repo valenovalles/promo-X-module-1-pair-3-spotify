@@ -1,8 +1,39 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.legalcookies{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
 }
+
+.bandera{
+  width: 25%;
+  padding-left: 5px;
+}
+
+.copyright{
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.españa p{
+  text-align: right;
+}
+
+.españa{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+

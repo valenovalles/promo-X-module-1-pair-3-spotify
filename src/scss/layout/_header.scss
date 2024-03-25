@@ -1,5 +1,16 @@
-.page__header {
+.cabecera{
+  background-color: black;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  padding: 10px;
+  justify-content: space-between;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.logo{
+  width: 120px;
+}
+.icon-menu{
+  width: 40px;
 }

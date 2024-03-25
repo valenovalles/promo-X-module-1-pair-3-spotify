@@ -1,0 +1,60 @@
+@import "core/reset";
+@import "core/variables";
+@import "layout/header";
+@import "layout/bloqueazul";
+@import "layout/bloqueblanco";
+@import "layout/footer";
+
+*{
+        font-family: Roboto;
+        font-size: 10px;
+}
+
+// @media (width > 768px){
+// .icon-menu{
+//     display: none;
+// }
+// .main-menu{
+//     display: flex;
+//     align-items: center;
+//     gap: 20px;
+// }
+// .main-menu a{
+//     text-decoration: none;
+//     color: white;
+//     font-weight: bold;
+// }
+// .main-menu li{
+//     color: white;
+// }
+// .menu{
+//     display: flex;
+// }
+// .container-1{
+//     background-image: url("../imagenes/premium_dancer.png");
+//     background-position: right;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     justify-content: flex-start;
+//     padding-top: 60px;
+// }
+// .container-1 h1 {
+//     font-size: 6rem;
+// }
+// .slogan{
+//     font-size: 2rem;
+//     font-weight: bold;
+// }
+// .boton{
+//     max-width: 15%;
+//     font-size: 1.2rem;
+// }
+// .condiciones{
+//     font-size: 1rem;
+//     width: 50%;
+// }
+// /* Este es escritorio */
+// }
+// @media (width > 1280px){
+    
+// }
